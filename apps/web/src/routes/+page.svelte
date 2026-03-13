@@ -547,12 +547,12 @@
                             >
                                 Log In
                             </Button>
-                            <Button
-                                variant="outline"
-                                href="/auth/register"
-                                class="h-14 sm:flex-1 rounded-2xl font-bold text-[13px] uppercase border-border/60 backdrop-blur-sm transition-all"
-                            >
-                                Quick Start
+                            // <Button
+                            //     variant="outline"
+                            //     href="/auth/register"
+                            //     class="h-14 sm:flex-1 rounded-2xl font-bold text-[13px] uppercase border-border/60 backdrop-blur-sm transition-all"
+                            // >
+                            //     Quick Start
                             </Button>
                         </div>
 
