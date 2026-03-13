@@ -171,7 +171,7 @@ func main() {
 
 	// ------------------------------
 	authHandler := handlers.NewAuthHandler(authService, cfg)
-	api.Post("/auth/register", authHandler.Register)
+	// api.Post("/auth/register", authHandler.Register)
 	api.Post("/auth/login", authHandler.Login)
 	api.Post("/auth/guest-login", authHandler.GuestLogin)
 	api.Post("/auth/refresh", authHandler.RefreshToken)
