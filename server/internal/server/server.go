@@ -111,7 +111,7 @@ func Run(configPath string) error {
 	authHandler := handlers.NewAuthHandler(authService, cfg)
 	roomHandler := handlers.NewRoomHandler(cfg.LiveKit, roomRepo)
 
-	api.Post("/auth/register", authHandler.Register)
+	// api.Post("/auth/register", authHandler.Register)
 	api.Post("/auth/login", authHandler.Login)
 	api.Post("/auth/guest-login", authHandler.GuestLogin)
 	api.Post("/auth/refresh", authHandler.RefreshToken)
